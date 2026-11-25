@@ -1,0 +1,27 @@
+Package: borealfeathers
+Title: Colour Palettes Inspired by Boreal Birds
+Version: 0.0.0.9000
+Authors@R:
+    person("Meg", "Edgar", , "your.email@ualberta.ca", role = c("aut", "cre"))
+Description: Discrete, sequential and diverging colour palettes drawn from
+    the plumage of birds of the North American boreal forest and its wetlands,
+    with helpers for base graphics and 'ggplot2'. Palettes are checked for
+    legibility under simulated colour-vision deficiency.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 4.0.0)
+Imports:
+    grDevices,
+    graphics
+Suggests:
+    colorspace,
+    farver,
+    ggplot2 (>= 3.5.0),
+    knitr,
+    magick,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2

@@ -1,0 +1,8 @@
+url: ~
+template:
+  bootstrap: 5
+reference:
+  - title: Palettes
+    contents: [get_pal, list_palettes, print_pal, boreal_palettes, boreal_continuous, boreal_palette_info]
+  - title: ggplot2 scales
+    contents: [scale_colour_boreal]
